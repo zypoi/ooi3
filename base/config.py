@@ -4,7 +4,7 @@ import os
 proxy = os.environ.get('OOI_PROXY', None)
 
 # Cookie的secret key
-secret_key = os.environ.get('OOI_SECRET_KEY', 'You Must Set A Secret Key!').encode()
+secret_key = os.environ.get('OOI_SECRET_KEY','poipoipoipoipoipoipoipoipoipoi32').encode()
 
 # 项目目录
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

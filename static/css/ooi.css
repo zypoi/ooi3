@@ -2,6 +2,11 @@ html, body, h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", Helvetica, "Microsoft Yahei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
 }
 
+#pixiv-top10{
+	margin: auto;
+	position: absolute;
+	left: 50%;
+}
 #ooi-page {
   margin-top: 2px;
   margin-bottom: 14px;
